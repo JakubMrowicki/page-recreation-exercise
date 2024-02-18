@@ -165,3 +165,11 @@ figure figcaption {
 .cta button {
   border: 2px solid var(--white);
 }
+
+/* Footer */
+footer {
+  background-color: var(--darkblue);
+  color: var(--gray);
+  padding: 36px 0;
+  text-align: center;
+}
