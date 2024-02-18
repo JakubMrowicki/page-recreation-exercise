@@ -122,3 +122,23 @@ figure figcaption {
   text-align: center;
   color: var(--darkgray);
 }
+
+/* Quote */
+#quote {
+  background-color: var(--gray);
+  padding: 100px 20%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--darkblue);
+}
+
+.author {
+  display: block;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+}
