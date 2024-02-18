@@ -8,6 +8,7 @@
   --darkblue: #1f2937;
   --blue: #3882f6;
   --gray: #e5e7eb;
+  --darkgray: #727272;
   --white: #f9faf8;
 }
 
@@ -95,4 +96,29 @@ a:hover {
 
 .hero button {
   align-self: flex-start;
+}
+
+/* Info */
+#info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--darkblue);
+  text-align: center;
+  margin: 50px 0;
+}
+
+.card-container {
+  display: flex;
+  gap: 16px;
+  margin: 0 10% 100px 10%;
+}
+
+figure img {
+  border: 4px solid var(--blue);
+  border-radius: 16px;
+}
+
+figure figcaption {
+  text-align: center;
+  color: var(--darkgray);
 }
