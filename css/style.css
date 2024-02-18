@@ -9,7 +9,6 @@
   --blue: #3882f6;
   --gray: #e5e7eb;
   --white: #f9faf8;
-  --offwhite: #e5e7eb;
 }
 
 body {
@@ -21,6 +20,17 @@ body {
   margin: 0 auto;
 }
 
+button {
+  color: var(--gray);
+  background-color: var(--blue);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 28px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Header */
 header {
   background-color: var(--darkblue);
 }
@@ -29,7 +39,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--offwhite);
+  color: var(--gray);
   padding: 16px 0;
 }
 
@@ -45,12 +55,44 @@ nav ul {
   gap: 16px;
 }
 
+nav ul li {
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
-  color: var(--offwhite);
+  color: var(--gray);
 }
 
 a:hover {
   text-decoration: underline;
   color: var(--white);
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  padding: 120px 0;
+  gap: 32px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--white);
+}
+
+.hero p {
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.hero button {
+  align-self: flex-start;
 }
