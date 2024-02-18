@@ -142,3 +142,26 @@ figure figcaption {
   font-size: 18px;
   font-weight: 700;
 }
+
+/* Call to Action */
+.cta {
+  background-color: var(--blue);
+  border-radius: 8px;
+  margin: 100px 0;
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-content h4 {
+  color: var(--white);
+  font-size: 22px;
+}
+
+.cta-content p {
+  color: var(--gray);
+}
+
+.cta button {
+  border: 2px solid var(--white);
+}
